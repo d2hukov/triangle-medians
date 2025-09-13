@@ -9,9 +9,7 @@ def median_length(p1, p2, p3):
             (p2[1] + p3[1]) / 2,
             (p2[2] + p3[2]) / 2 )
 
-    return math.sqrt((p1[0] - mid[0])**2 +
-                     (p1[1] - mid[1])**2 +
-                     (p1[2] - mid[2])**2)
+    return math.sqrt((p1[0] - mid[0])**2 + (p1[1] - mid[1])**2 + (p1[2] - mid[2])**2)
 
 def input_point(name):
     x = float(input(f"Введіть x координату точки {name}: "))
